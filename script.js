@@ -42,6 +42,8 @@ document.querySelector('.check').addEventListener('click', function () {
     }
 
 });
+
+//Again button
 document.querySelector('.again').addEventListener('click', function () {
     score = 20;
     secretNumber = Math.trunc(Math.random() * 20) + 1;
